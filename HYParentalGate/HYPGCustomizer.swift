@@ -62,12 +62,10 @@ class HYPGCustomizer: NSObject {
     }
     
     func setupClearButton() {
-        let onePasswordExtensionResourcesBundle = Bundle(path: Bundle(for: HYParentalGate.self).path(forResource: "com.25happyeyes.parentalgate", ofType: "bundle")!)
-        let mark = UIImage(named: "mark", in: onePasswordExtensionResourcesBundle, compatibleWith: nil)
-         let backgroundImage = UIImage(named: "back_arrow", in: onePasswordExtensionResourcesBundle, compatibleWith: nil)
+        let mark = UIImage(named: "mark", in: nil, compatibleWith: nil)
+        let backgroundImage = UIImage(named: "back_arrow", in: nil, compatibleWith: nil)
         controller.clearButton.setImage(mark, for: .normal)
         controller.clearButton.setBackgroundImage(backgroundImage, for: .normal)
     }
-
+    
 }
-
