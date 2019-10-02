@@ -17,6 +17,10 @@
 		2A432A611DC0DC7500D063D9 /* HYParentalGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A108943A233E079500914E75 /* HYPGCustomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1089439233E079500914E75 /* HYPGCustomizer.swift */; };
 		A108943C233E07EC00914E75 /* HYParentalGateUIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A108943B233E07EC00914E75 /* HYParentalGateUIConfig.swift */; };
+		A1F898232344ADE700445ECB /* erase.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F898212344ADE700445ECB /* erase.png */; };
+		A1F898242344ADE700445ECB /* erase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F898222344ADE700445ECB /* erase@2x.png */; };
+		A1F898282344AE4200445ECB /* erase-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F898262344AE4200445ECB /* erase-pressed.png */; };
+		A1F898292344AE4200445ECB /* erase-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F898272344AE4200445ECB /* erase-pressed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		2A432A601DC0DC7500D063D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1089439233E079500914E75 /* HYPGCustomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPGCustomizer.swift; sourceTree = "<group>"; };
 		A108943B233E07EC00914E75 /* HYParentalGateUIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYParentalGateUIConfig.swift; sourceTree = "<group>"; };
+		A1F898212344ADE700445ECB /* erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erase.png; sourceTree = "<group>"; };
+		A1F898222344ADE700445ECB /* erase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "erase@2x.png"; sourceTree = "<group>"; };
+		A1F898262344AE4200445ECB /* erase-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "erase-pressed.png"; sourceTree = "<group>"; };
+		A1F898272344AE4200445ECB /* erase-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "erase-pressed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		2A432A5E1DC0DC7500D063D9 /* HYParentalGate */ = {
 			isa = PBXGroup;
 			children = (
+				A1F898252344AE0900445ECB /* Resource */,
 				2A2A78751DC7384D00FD0B4D /* HYParentalGateViewController.xib */,
 				2A2A78761DC7384D00FD0B4D /* HYLocalization.plist */,
 				2A2A78771DC7384D00FD0B4D /* HYParentalGateViewController.swift */,
@@ -77,6 +86,17 @@
 				A108943B233E07EC00914E75 /* HYParentalGateUIConfig.swift */,
 			);
 			path = HYParentalGate;
+			sourceTree = "<group>";
+		};
+		A1F898252344AE0900445ECB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A1F898262344AE4200445ECB /* erase-pressed.png */,
+				A1F898272344AE4200445ECB /* erase-pressed@2x.png */,
+				A1F898222344ADE700445ECB /* erase@2x.png */,
+				A1F898212344ADE700445ECB /* erase.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +170,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F898292344AE4200445ECB /* erase-pressed@2x.png in Resources */,
+				A1F898232344ADE700445ECB /* erase.png in Resources */,
 				2A2A787D1DC7384D00FD0B4D /* HYLocalization.plist in Resources */,
+				A1F898242344ADE700445ECB /* erase@2x.png in Resources */,
 				2A2A78821DC7384D00FD0B4D /* Assets.xcassets in Resources */,
 				2A2A787C1DC7384D00FD0B4D /* HYParentalGateViewController.xib in Resources */,
+				A1F898282344AE4200445ECB /* erase-pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
