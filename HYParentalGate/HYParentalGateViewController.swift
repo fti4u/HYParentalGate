@@ -82,7 +82,6 @@ class HYParentalGateViewController: UIViewController {
         } else {
             self.checkbox.checkMarkColor = UIColor.green.cgColor
         }
-        UIcustomizer.setupClearButton()
     }
     
     fileprivate func checkIfAllDigitsAreEntered() {
