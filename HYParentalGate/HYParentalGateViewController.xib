@@ -351,7 +351,7 @@
         </view>
     </objects>
     <resources>
-        <image name="erase" width="76" height="47"/>
+        <image name="erase" width="16" height="16"/>
         <image name="erase-pressed" width="76" height="47"/>
     </resources>
 </document>
