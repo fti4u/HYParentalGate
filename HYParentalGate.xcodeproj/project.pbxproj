@@ -16,7 +16,7 @@
 		2A432A611DC0DC7500D063D9 /* HYParentalGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A432A5F1DC0DC7500D063D9 /* HYParentalGate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A108943A233E079500914E75 /* HYPGCustomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1089439233E079500914E75 /* HYPGCustomizer.swift */; };
 		A108943C233E07EC00914E75 /* HYParentalGateUIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A108943B233E07EC00914E75 /* HYParentalGateUIConfig.swift */; };
-		A1F8982A2344C74F00445ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A787B1DC7384D00FD0B4D /* Assets.xcassets */; };
+		A1F92EA82345FAAE0085DDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A787B1DC7384D00FD0B4D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2A787D1DC7384D00FD0B4D /* HYLocalization.plist in Resources */,
-				A1F8982A2344C74F00445ECB /* Assets.xcassets in Resources */,
+				A1F92EA82345FAAE0085DDF3 /* Assets.xcassets in Resources */,
 				2A2A787C1DC7384D00FD0B4D /* HYParentalGateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
