@@ -62,8 +62,8 @@ class HYPGCustomizer: NSObject {
     }
     
     func setupClearButton() {
-        let mark = UIImage(named: "mark", in: Bundle(for: type(of: self)), compatibleWith: nil)
-        let backgroundImage = UIImage(named: "back_arrow", in: Bundle(for: type(of: self)), compatibleWith: nil)
+        let mark = UIImage(named: "mark", in: Bundle(for: HYParentalGate.self), compatibleWith: nil)
+        let backgroundImage = UIImage(named: "back_arrow", in: Bundle(for: HYParentalGate.self), compatibleWith: nil)
         controller.clearButton.setImage(mark, for: .normal)
         controller.clearButton.setBackgroundImage(backgroundImage, for: .normal)
     }
