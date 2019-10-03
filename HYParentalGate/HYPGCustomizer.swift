@@ -62,10 +62,12 @@ class HYPGCustomizer: NSObject {
     }
     
     func setupClearButton() {
-        let mark = #imageLiteral(resourceName: "mark")
-        let backgroundImage = #imageLiteral(resourceName: "back_arrow")
-        controller.clearButton.setImage(mark, for: .normal)
-        controller.clearButton.setBackgroundImage(backgroundImage, for: .normal)
+        if controller.clearButton.image(for: .normal) == nil, controller.clearButton.image(for: .normal) == nil {
+            let mark = #imageLiteral(resourceName: "mark")
+            let backgroundImage = #imageLiteral(resourceName: "back_arrow")
+            controller.clearButton.setImage(mark, for: .normal)
+            controller.clearButton.setBackgroundImage(backgroundImage, for: .normal)
+        }
     }
     
 }
